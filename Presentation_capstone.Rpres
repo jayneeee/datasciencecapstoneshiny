@@ -1,0 +1,66 @@
+Next Word Prediction
+========================================================
+author: Jayneeee
+Coursera Data Science Capstone Project
+
+***Project Goal / Problem to solve:***
+When using mobile devices, the capability of having a text prediction can help the user type words faster with greater accuracy. Two key metrics for this capability to be successful will involve accuracy and prediction speed.  With this challenge in mind, we have set out to build a fast and accurate prediction app that will predict the next word in a given sentence.
+
+Product Introduction
+========================================================
+
+The "Next Word Prediction" app is our answer to the problem.
+
+Features:
+
+<font size = "5">
+
+* The objective of this capstone is developing a Shiny app that can predict the next word, like that used in mobile keyboards applications implemented by the [Swiftkey](https://swiftkey.com/en).
+
+* There are many tasks to be realized such as: (1) Understanding the problem, getting and cleaning the data;  (2) Making of Exploratory Data Analysis (EDA); (3) Tokenization of words and predictive text mining; (4) Writing a milestone project and a prediction model; (5) Developing a shiny application and Writing the Pitch.
+
+* The data came from [HC Corpora](http://www.corpora.heliohost.org) with three files (Blogs, News and Twitter). The data was cleaned, processed, tokenized, and n-grams are created. The final report comes from the link [Milestone Report](http://rpubs.com/jayneeee/datasciencecapstone1).
+
+
+  
+</font>
+
+Explanation of the internal algorithm
+========================================================
+<font size="5">
+
+* The Shiny application allow the prediction of the next possible word in a sentence. 
+
+* The user entered the text in an input box, and in the other one, the application returns the most probability word to be used.
+
+* The predicted word is obtained from the n-grams matrices, comparing it with tokenized frequency of 2, 3 and 4 grams sequences. 
+
+* While entering the text, the field with the predicted next word refreshes instantaneously, and then the predicted word is then provided for the user's choice. 
+ 
+ 
+ </font> 
+
+Investor Pitch
+========================================================
+<font size = "6">
+
+* Screenshot of the user interface with the directions to provide a sentence or a word and get the prediction of the next likely word.
+
+![Application Screenshot](C:/Users/jieya/OneDrive/Documents/R/Module 10 Capstone/screenshot.jpg)
+
+</font>
+
+Link to the Shiny App and Instructions
+========================================================
+<font size = "5">
+* Accuracy could be improved increasing the sample size. 
+
+* The final report comes from the link [Milestone Report](http://rpubs.com/jayneeee/datasciencecapstone1). 
+
+* TRY THE APP ---> [Shiny app](https://jayneeee.shinyapps.io/data_science_capstone_shiny/)
+
+* This Pitch slide deck is located in RPubs at [Pitch Deck](http://rpubs.com/jayneeee)
+
+* The whole code of this application, as well as all the milestone report, related scripts, this presentation, etc. can be found in this GitHub repo: [GitHub](https://github.com/jayneeee)
+
+<br>
